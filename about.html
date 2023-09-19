@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,200;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!--Header section-->
+
+    <section class="sub-header">
+        <nav>
+            <a href="#"><img src="image/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-bars" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>About Us</h1>
+
+    </section>
+
+    <!--about us containt-->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are world's largest university</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dignissimos laudantium deserunt qui laborum animi incidunt dolor dicta est placeat odit numquam fuga ipsam, eos minus nemo aspernatur voluptates omnis debitis officia dolore illo libero doloremque! Iusto, perferendis amet? Molestias consequatur quasi vitae impedit magni explicabo veniam repellendus nihil iusto.Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aliquam distinctio nostrum, rem dignissimos facere.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+
+            </div>
+            <div class="about-col">
+                <img src="image/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    
+
+
+    
+    
+
+    
+    <!--Footer-->
+
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis minima ratione temporibus, odit accusantium numquambr
+            <br> veniam at nobis in doloribus, consequuntur quam recusandae iste ipsam beatae iusto repudiandae magnam asperiores.</p>
+
+    </section>
+
+
+
+    <!--javaS-->
+
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+</body>
+</html>
